@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+  font-family: var(--font-general-sans);
+}
+
 .font-manrope {
   font-family: var(--font-manrope);
 }
