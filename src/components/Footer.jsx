@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="py-6 md:py-16 w-[85%] md:w-[80%] mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         {/* Logo */}
         <div className="md:mx-0 flex items-center justify-between">
-          <Image src={Logo} alt="Logo" width={100} />
+          <Image src={Logo} alt="Logo" className="w-[100px] h-6 lg:w-[160px] lg:h-9"/>
 
           {/* Center Text */}
           <p className="text-[#0A0F0D] text-xs md:text-center md:w-fit text-center md:hidden w-[130px] ">

@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ReadyToTurn from "@/components/ReadyToTurn";
 import WhyBusiness from "@/components/WhyBusiness";
 
 const Home = () => {
@@ -33,7 +34,9 @@ const Home = () => {
       <section></section>
 
       {/* Ready To Turn Section */}
-      <section></section>
+      <section className="">
+        <ReadyToTurn />
+      </section>
     </main>
   );
 };
