@@ -1,3 +1,4 @@
+import GotQuestion from "@/components/GotQuestion";
 import Hero from "@/components/Hero";
 import ReadyToTurn from "@/components/ReadyToTurn";
 import WhyBusiness from "@/components/WhyBusiness";
@@ -31,10 +32,12 @@ const Home = () => {
       <section></section>
 
       {/* Got Questions Section */}
-      <section></section>
+      <section className="py-16 lg:py-[120px] bg-[#151E1B]">
+    <GotQuestion />
+      </section>
 
       {/* Ready To Turn Section */}
-      <section className="">
+      <section>
         <ReadyToTurn />
       </section>
     </main>
