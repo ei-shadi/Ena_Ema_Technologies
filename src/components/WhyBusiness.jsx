@@ -12,9 +12,9 @@ const WhyBusiness = () => {
     <section className="w-[85%] md:w-[80%] mx-auto text-white text-center">
       {/* Title Container */}
       <div className="pb-12">
-        <h1 className="text-4xl lg:text-5xl w-[361px] md:w-[500px] mx-auto lg:w-full font-manrope font-medium pb-3">Why Businesses <span className="text-[#1FFFA5]">Trust Us</span> With Their Designs</h1>
+        <h1 className="text-4xl lg:text-5xl w-[330px] md:w-[500px] lg:w-full font-manrope font-medium pb-3 text-center mx-auto">Why Businesses <span className="text-[#1FFFA5]">Trust Us</span> With Their Designs</h1>
 
-        <p className="text-sm md:text-lg text-[#F5F5F5] w-[351px] md:w-[600px] mx-auto lg:w-full">
+        <p className="text-sm md:text-lg text-[#F5F5F5] w-[330px] md:w-[600px] lg:w-full text-center mx-auto">
           We combine proven conversion frameworks with agency-level design to deliver results that matter.
         </p>
       </div>
