@@ -1,6 +1,7 @@
 import { Manrope } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -23,6 +24,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${manrope.variable} ${generalSans.variable}`}>
         {children}
+
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );

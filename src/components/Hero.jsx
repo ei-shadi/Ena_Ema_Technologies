@@ -38,7 +38,7 @@ const Hero = () => {
 
           {/* Headline */}
           <div>
-            <h1 className="text-[#F5F5F5] mx-auto w-[361px] md:w-[614px] lg:w-[1050px] text-[36px] md:text-[64px] lg:text-7xl text-center font-bold pb-4 font-manrope leading-tight">Strategic Landing Pages That Convert From Just <span className="text-[#1FFFA5]">$200</span>
+            <h1 className="text-[#F5F5F5] mx-auto w-[361px] md:w-[614px] lg:w-[1020px] text-[36px] md:text-[64px] lg:text-7xl text-center font-bold pb-4 font-manrope leading-tight">Strategic Landing Pages That Convert From Just <span className="text-[#1FFFA5]">$200</span>
             </h1>
 
             <p className="text-[#F5F5F5] text-xs md:text-lg text-center w-[370px] md:w-[614px] lg:max-w-[840px] mx-auto leading-relaxed">Stop wasting traffic on generic pages. We deliver premium, conversion-focused landing pages designed, developed, and launched in just 5 days.</p>
