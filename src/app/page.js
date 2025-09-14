@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import GotQuestion from "@/components/GotQuestion";
 import Hero from "@/components/Hero";
 import ReadyToTurn from "@/components/ReadyToTurn";
@@ -29,10 +30,12 @@ const Home = () => {
       <section></section>
 
       {/* About Us Section */}
-      <section></section>
+      <section className="bg-[#151E1B] py-16 lg:py-[120px]">
+<AboutUs />
+      </section>
 
       {/* Got Questions Section */}
-      <section className="py-16 lg:py-[120px] bg-[#151E1B]">
+      <section className="bg-[#151E1B] py-16 lg:py-[120px]">
     <GotQuestion />
       </section>
 

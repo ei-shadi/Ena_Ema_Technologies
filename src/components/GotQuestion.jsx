@@ -4,10 +4,10 @@ import Dot from "../../public/assets/icons/Ellipse 5.png"
 const GotQuestion = () => {
   return (
     <section>
-      <h1 className="pb-12 w-[90%] mx-auto text-[34px] text-white text-center lg:text-5xl font-medium font-manrope">Got Questions <span className="text-[#1FFFA5]">?</span> We’ve Got The Answers</h1>
+      <h1 className="pb-12 w-[90%] mx-auto text-4xl text-white text-center lg:text-5xl font-medium font-manrope">Got Questions <span className="text-[#1FFFA5]">?</span> We’ve Got The Answers</h1>
 
       {/* Answer Container */}
-      <div className=" w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col gap-6">
+      <div className=" w-[90%] md:w-[88%] lg:w-[60%] mx-auto flex flex-col gap-6">
 
         {/* Answer-1 */}
         <div className="p-6 bg-[#192420] rounded-xl ">
