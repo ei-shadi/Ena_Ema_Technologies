@@ -61,6 +61,7 @@ const UserField = ({ glowType = "inset" }) => {
             <input
               type="text"
               className="py-[18px] pl-10 pr-40 md:pr-0 lg:pr-14 text-xs text-[#B2B2B2] border border-[#2A3C36] rounded-[4px] focus:outline-none focus:border-[#1FFFA5]"
+              placeholder="Phone Number"
             />
           </div>
         </div>
