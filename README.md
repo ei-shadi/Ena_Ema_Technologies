@@ -1,7 +1,7 @@
 <div align="center">
   <h1>
     <a href="https://your-live-site-url.com" target="_blank" rel="noopener noreferrer">
-      ⚡ <strong>Landing Page For Ena Ema Technologies</strong>
+      ⚡ <strong>Landing Page For - Ena Ema Technologies</strong>
     </a>
   </h1>
   <p><strong>A fully responsive and pixel-perfect landing page built with Next.js, Tailwind CSS, Radix UI, and Framer Motion.</strong></p>
