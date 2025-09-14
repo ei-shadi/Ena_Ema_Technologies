@@ -96,12 +96,10 @@ ENA_EMA_TECHNOLOGIES/
   <p><em>Desktop View</em></p>
 
   <img src="https://i.ibb.co.com/VY9rK0RN/Screenshot-2.png" alt="Tablet View" width="60%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
-  <p><em>Tablet View</em></p>
 
   <img src="https://i.ibb.co.com/BKPq5XZN/Screenshot-3.png" alt="Mobile View" width="40%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
 
   <img src="https://i.ibb.co.com/CpwyfQVQ/Screenshot-4.png" alt="Mobile View" width="40%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
-  <p><em>Mobile View</em></p>
 </div>
 
 ---
