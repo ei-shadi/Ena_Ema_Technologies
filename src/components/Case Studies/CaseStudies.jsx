@@ -5,6 +5,7 @@ import Learn from "../../../public/assets/images/Learn.png";
 import WeCan from "../../../public/assets/images/WeCan.png";
 import Check from "../../../public/assets/icons/FillCheck.png";
 import SmallContainer from "./SmallContainer";
+import "./CaseStudies.css";
 
 const CaseStudies = () => {
   return (
@@ -21,6 +22,8 @@ const CaseStudies = () => {
 
       {/* Case Studies Card Container */}
       <div className="relative hidden md:flex flex-row justify-center my-12 overflow-hidden">
+
+
         {/* Card 1 (Left) */}
         <div className="absolute md:-left-93 lg:-left-62 xl:-left-10 w-[440px] bg-[#151E1B] h-full border-2 border-[#2A3C36] rounded-xl">
           <Image src={WeCan} alt="We Can Image" className="md:ml-[25px] lg:w-[88%] lg:mt-6 lg:ml-10" />
@@ -50,7 +53,7 @@ const CaseStudies = () => {
         </div>
 
         {/* Card 2 (Middle) */}
-        <div className="md:w-[593px] lg:w-[600px] bg-[#151E1B] p-3 border-2 border-[#2A3C36] rounded-xl z-10">
+        <div className="md:w-[593px] lg:w-[600px] big bg-[#151E1B] p-3 border-2 border-[#2A3C36] rounded-xl z-10">
           <Image src={Instant} alt="Instant Image" className="h-[372px]" />
 
           <div className="flex flex-col mt-2 p-3">
@@ -100,6 +103,9 @@ const CaseStudies = () => {
             </div>
           </div>
         </div>
+
+        {/* Vignette Overlay */}
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle,rgba(255,255,255,0.15)_0%,rgba(0,0,0,0.6)_100%)] mix-blend-overlay"></div>
       </div>
 
       {/* Small Device Card Container */}

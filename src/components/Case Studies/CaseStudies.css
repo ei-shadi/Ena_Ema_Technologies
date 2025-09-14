@@ -1,0 +1,6 @@
+/* styles/custom.css */
+@media (min-width: 1500px) {
+  .big {
+    width: 1050px;
+  }
+}
