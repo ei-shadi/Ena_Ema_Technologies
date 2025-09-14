@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import CarouselCard from "@/components/CarouselCard";
 import ChoosePlan from "@/components/Choose Plan/ChoosePlan";
 import FromIdea from "@/components/FromIdea";
 import GotQuestion from "@/components/GotQuestion";
@@ -15,7 +16,9 @@ const Home = () => {
       </section>
 
       {/* Carousel Card Section */}
-      <section></section>
+      <section className="bg-[#151E1B] pt-3 md:pt-8 lg:pt-0">
+        <CarouselCard />
+      </section>
 
       {/* Why Business Section */}
       <section className="bg-[#151E1B] py-16 lg:py-[120px]">
