@@ -13,7 +13,7 @@ const CarouselCard = () => {
         <Image
           src={LargePhoto}
           alt="Photo1"
-          className="h-[490px] w-full object-cover"
+          className="h-[490px] w-full object-cover "
         />
         {/* Vignette Overlay */}
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle,rgba(0,0,0,0)_70%,rgba(0,0,0,0.7)_100%)]"></div>

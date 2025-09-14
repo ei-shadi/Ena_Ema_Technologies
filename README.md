@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1>
+    <a href="https://your-live-site-url.com" target="_blank" rel="noopener noreferrer">
+      ⚡ <strong>PixelPerfect Landing Page - Ena Ema Technologies</strong>
+    </a>
+  </h1>
+  <p><strong>A fully responsive and pixel-perfect landing page built with Next.js, Tailwind CSS, Radix UI, and Framer Motion.</strong></p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 📖 Project Overview
+This project for **Ena Ema Technologies** is a custom-designed landing page converted from a Figma file into a responsive Next.js application.  
+The goal was to ensure a **pixel-perfect UI** across desktop, tablet, and mobile views, while keeping the code **clean, reusable, and maintainable**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+- 🎨 **Pixel-perfect design** matching the provided Figma file  
+- 📱 **Fully responsive layout** for desktop, tablet, and mobile  
+- ♻️ **Reusable components** for scalability and maintainability  
+- 🌈 **Smooth, eye-pleasing animations** with Framer Motion  
+- 🎛 **Radix UI integration** for accessible, headless components  
+- 🎨 **Tailwind CSS & custom styling** for fast, clean styling  
+- 🗂 **Clean and organized folder structure**  
+
+---
+
+## 🛠 Tech Stack
+| Technology        | Purpose                          |
+|-------------------|-----------------------------------|
+| **JavaScript (ES6+)** | Primary programming language   |
+| **Next.js**       | React framework for building UI  |
+| **Tailwind CSS**  | Utility-first CSS framework      |
+| **Radix UI**      | Accessible, unstyled UI primitives |
+| **Framer Motion** | Animations and transitions       |
+
+---
+
+## 🧩 Folder Structure
+```
+ENA_EMA_TECHNOLOGIES/
+├── .next/                       # Next.js build files
+├── node_modules/                # Project dependencies
+├── public/
+│   ├── assets/                   # All static assets
+│   │   ├── icons/                # SVGs or icon files
+│   │   └── images/               # Image files (PNG, JPG, etc.)
+│   │
+│   └── fonts/                    # Custom fonts
+│
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css           # Global styles
+│   │   ├── layout.js             # Root layout
+│   │   └── page.js               # Main landing page
+│   │
+│   └── components/
+│       ├── Case Studies/         # Case study related components
+│       ├── Choose Plan/          # Pricing/plan selection components
+│       ├── shared/               # Common UI elements
+│       │   ├── Button.jsx
+│       │   └── UserField.jsx
+│       │
+│       ├── AboutUs.jsx
+│       ├── CarouselCard.jsx
+│       ├── Footer.jsx
+│       ├── FromIdea.jsx
+│       ├── GotQuestion.jsx
+│       ├── Hero.jsx
+│       ├── ReadyToTurn.jsx
+│       └── WhyBusiness.jsx
+│
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+└── pnpm-lock.yaml
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Live Demo
+<div align="center">
+  <a href="https://ena-ema-technologies.vercel.app" target="_blank"><strong>🌐 Go Now...</strong></a>
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖼 Interface Snapshots
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
+  <img src="public/screenshot-desktop.png" alt="Desktop View" width="80%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
+  <p><em>Desktop View</em></p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <img src="public/screenshot-tablet.png" alt="Tablet View" width="60%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
+  <p><em>Tablet View</em></p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  <img src="public/screenshot-mobile.png" alt="Mobile View" width="40%" style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
+  <p><em>Mobile View</em></p>
+</div>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Installation & Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/landing-page.git
+cd landing-page
+```
+
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+or
+```bash
+pnpm install
+```
+or
+```bash
+yarn install
+```
+
+### 3️⃣ Run the development server
+```bash
+npm run dev
+```
+or
+```bash
+pnpm dev
+
+This app will be live at **https://ena-ema-technologies.vercel.app**
+
+---
+
+## 🧪 Build for production
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 🧹 Code Quality
+- **Reusable components** to reduce repetition  
+- **Clean folder structure** for easy scaling  
+- **Consistent naming conventions** for readability  
+- **Custom hooks & utility functions** where needed  
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+<div align="center">
+  <p>Built with ❤️ using <strong>Next.js</strong>, <strong>Tailwind CSS</strong>, and <strong>Framer Motion</strong>.</p>
+</div>
+
+---
+
+## 👨‍💻 Developer
+**Developed by:** Eftajul Islam Shadi  
+[Portfolio](https://eftajulislamshadi.netlify.app/) | [GitHub](https://github.com/ei-shadi) | [LinkedIn](https://www.linkedin.com/in/eftajulislamshadi)
