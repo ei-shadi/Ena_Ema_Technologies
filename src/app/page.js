@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import CarouselCard from "@/components/CarouselCard";
+import CaseStudies from "@/components/Case Studies/CaseStudies";
 import ChoosePlan from "@/components/Choose Plan/ChoosePlan";
 import FromIdea from "@/components/FromIdea";
 import GotQuestion from "@/components/GotQuestion";
@@ -26,7 +27,9 @@ const Home = () => {
       </section>
 
       {/* Case Studies Section */}
-      <section></section>
+      <section className="bg-[#0A0F0D] py-16 lg:py-[120px]">
+        <CaseStudies />
+      </section>
 
       {/* Choose Your Plan Section */}
       <section className="bg-[#0A0F0D] py-16 lg:py-[120px]">

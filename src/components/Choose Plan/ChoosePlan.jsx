@@ -262,7 +262,7 @@ const ChoosePlan = () => {
             {/* Button → mt-auto pushes it to the bottom */}
             <div className="mt-auto">
               <Button>
-                Start My Project
+                Contact Us
               </Button>
             </div>
           </div>
