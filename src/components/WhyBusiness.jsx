@@ -9,7 +9,7 @@ import Trophy from "../../public/assets/icons/Trophy.png";
 
 const WhyBusiness = () => {
   return (
-    <section className="w-[85%] md:w-[88%] lg:w-[85%] mx-auto text-white text-center">
+    <section className="w-[90%] md:w-[88%] lg:w-[85%] mx-auto text-[#F5F5F5] text-center">
       {/* Title Container */}
       <div className="pb-12">
         <h1 className="text-4xl lg:text-5xl w-[330px] md:w-[500px] lg:w-full font-manrope font-medium pb-3 text-center mx-auto">Why Businesses <span className="text-[#1FFFA5]">Trust Us</span> With Their Designs</h1>

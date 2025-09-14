@@ -1,0 +1,12 @@
+/* styles/custom.css */
+@media (min-width: 1500px) {
+  .show {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1499px) {
+  .show {
+    display: none !important;
+  }
+}

@@ -11,7 +11,7 @@ const AboutUs = () => {
     <section>
       
 {/* About Title Container */}
-<div className="w-[85%] md:w-[88%] lg:w-[85%] mx-auto text-white text-left pb-12">
+<div className="w-[90%] md:w-[88%] lg:w-[85%] mx-auto text-white text-left pb-12">
 <h1 className="text-4xl lg:text-5xl font-manrope font-medium pb-3 w-[361px] md:w-full">What Our Clients Are Saying <span className="text-[#1FFFA5]">About Us</span>
 </h1>
 
@@ -23,10 +23,10 @@ const AboutUs = () => {
 
 {/* Feedback Card Container */}
 
-<div className="flex gap-6 ml-[32px] md:ml-[46px] lg:ml-[7%] overflow-hidden">
+<div className="flex gap-6 ml-[20px] md:ml-[46px] lg:ml-[7%] overflow-hidden">
 
 {/* Card-1 */}
-<div className="bg-[#192420] p-6 rounded-xl md:w-[400px] lg:w-[350px]">
+<div className="bg-[#192420] p-6 rounded-xl w-[380px] md:w-[400px] lg:w-[350px]">
     {/* Star Container */}
     <div className="flex gap-2">
     <Image src={Star} alt="Star" width={16}/>

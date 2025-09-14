@@ -16,7 +16,6 @@ const UserField = ({ glowType = "inset" }) => {
 
   return (
     <div>
-      {/* Main Box with dynamic glow */}
       <div
         className={`border border-[#2A3C36] p-5 md:p-9 w-[371px] md:w-[614px] lg:w-[794px] 
           mx-auto rounded-lg ${glowClass}`}
@@ -68,7 +67,10 @@ const UserField = ({ glowType = "inset" }) => {
 
         {/* Button */}
         <div className="w-[335px] mx-auto md:w-full">
-          <Button>Get my high-converting landing page</Button>
+          <Button
+            >
+            Get my high-converting landing page
+          </Button>
         </div>
       </div>
 

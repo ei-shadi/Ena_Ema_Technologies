@@ -6,8 +6,8 @@ const ReadyToTurn = () => {
       className="relative overflow-hidden py-16 lg:py-[120px] text-white text-center"
       style={{
         background: `
-          radial-gradient(ellipse 60% 80% at 0% 50%, rgba(31,255,165,0.05), transparent 70%),
-          radial-gradient(ellipse 60% 80% at 100% 50%, rgba(31,255,165,0.05), transparent 70%),
+          radial-gradient(ellipse 60% 80% at 0% 50%, rgba(31,255,165,0.1), transparent 70%),
+          radial-gradient(ellipse 60% 80% at 100% 50%, rgba(31,255,165,0.08), transparent 70%),
           #0A0F0D
         `,
       }}
@@ -40,7 +40,8 @@ const ReadyToTurn = () => {
       </div>
 
       {/* Input field + button */}
-      <UserField glowType="inset" />
+      <UserField glowType="inset" 
+      />
     </section>
   );
 };
