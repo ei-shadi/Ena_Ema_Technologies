@@ -23,7 +23,6 @@ const CaseStudies = () => {
       {/* Case Studies Card Container */}
       <div className="relative hidden md:flex flex-row justify-center my-12 overflow-hidden">
 
-
         {/* Card 1 (Left) */}
         <div className="absolute md:-left-93 lg:-left-62 xl:-left-10 w-[440px] bg-[#151E1B] h-full border-2 border-[#2A3C36] rounded-xl">
           <Image src={WeCan} alt="We Can Image" className="md:ml-[25px] lg:w-[88%] lg:mt-6 lg:ml-10" />

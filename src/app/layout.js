@@ -23,9 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${manrope.variable} ${generalSans.variable}`}>
-        {children}
-
-        {/* Footer */}
+        {/* Main Content */}
+        <main>{children}</main>
+        
+        {/* Footer  */}
         <Footer />
       </body>
     </html>

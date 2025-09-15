@@ -14,7 +14,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`group w-full flex items-center justify-center gap-3 px-6 py-4 rounded-lg cursor-pointer font-semibold text-[16px] transition-all duration-300 font-manrope
+      className={`group w-full flex items-center justify-center gap-3 px-6 py-4 rounded-lg cursor-pointer font-semibold text-xs md:text-[16px] transition-all duration-300 font-manrope
         ${bgColor} ${textColor} ${hoverBgColor} ${hoverTextColor} ${shadowColor}`}
     >
       <p>{children}</p>

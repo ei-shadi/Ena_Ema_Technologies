@@ -27,7 +27,7 @@ const Footer = () => {
         </p>
 
         {/* Social Icons */}
-        <div className="flex items-center gap-4 justify-end">
+        <div className="flex items-center gap-2 lg:gap-4 justify-end">
           <Image src={LinkedIn} alt="LinkedIn" width={20} />
           <Image src={Facebook} alt="Facebook" width={20} />
           <Image src={Instagram} alt="Instagram" width={20} />

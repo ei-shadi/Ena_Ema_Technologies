@@ -6,7 +6,7 @@ import UserField from "../components/shared/UserField";
 
 const Hero = () => {
   return (
-    <section className="h-[100vh] w-full relative bg-[#151f1b]">
+    <section className=" h-[98vh] md:h-[100vh] xl:h-[90vh] w-full relative bg-[#151f1b]">
       <div
         className="absolute inset-0 z-0"
         style={{

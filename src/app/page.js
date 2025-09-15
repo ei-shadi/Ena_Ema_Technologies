@@ -17,7 +17,7 @@ const Home = () => {
       </section>
 
       {/* Carousel Card Section */}
-      <section className="bg-[#151E1B] pt-3 md:pt-8 lg:pt-0">
+      <section className="bg-[#151E1B] md:pt-8 lg:pt-0">
         <CarouselCard />
       </section>
 

@@ -9,7 +9,7 @@ import "./ChoosePlan.css";
 
 const ChoosePlan = () => {
   return (
-    <section className="w-[90%] md:w-[88%] lg:w-[85%] mx-auto text-[#F5F5F5] text-center flex flex-col gap-12">
+    <section className="w-[90%] md:w-[88%] lg:w-[85%] mx-auto text-[#F5F5F5] text-center flex flex-col gap-9 md:gap-12">
 
       {/* Choose Plan Title Container */}
       <div className="text-left ">
@@ -18,7 +18,7 @@ const ChoosePlan = () => {
       </div>
 
       {/* Card Container */}
-      <div className="relative flex flex-col xl:flex-row justify-center items-center gap-12">
+      <div className="relative flex flex-col xl:flex-row justify-center items-center gap-6 lg:gap-12">
 
         {/* Card-1 */}
         <div className="bg-[#192420] w-full xl:w-[400px] h-[460px] p-9 rounded-2xl flex flex-col">
@@ -270,10 +270,10 @@ const ChoosePlan = () => {
       </div>
 
       {/* Limited Container */}
-      <div className="flex items-center gap-5">
-        <Image src={Lightning} alt="Lightning Icon" width={26} />
+      <div className="flex items-start md:items-center gap-5">
+        <Image src={Lightning} alt="Lightning Icon" width={26}  />
 
-        <div className="text-left">
+        <div className="text-left flex flex-col gap-1">
           <h4 className="font-manrope font-bold text-2xl">Limited Availability</h4>
           <p className="text-[#B2B2B2] text-sm w-[309px] md:w-full">We only onboard 5 new clients per month. 2 spots left for this month — secure yours today.</p>
         </div>

@@ -67,8 +67,7 @@ const UserField = ({ glowType = "inset" }) => {
 
         {/* Button */}
         <div className="w-[335px] mx-auto md:w-full">
-          <Button
-            >
+          <Button>
             Get my high-converting landing page
           </Button>
         </div>

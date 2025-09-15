@@ -32,7 +32,6 @@ const WhyBusiness = () => {
           </div>
         </div>
 
-        
         {/* Card-2 */}
         <div className="p-6 bg-[#192420] rounded-lg">
           <Image src={Palette} alt="Rocket Launch" width={40} />
@@ -44,7 +43,6 @@ const WhyBusiness = () => {
           </div>
         </div>
 
-
         {/* Card-3 */}
         <div className="p-6 bg-[#192420] rounded-lg">
           <Image src={Lightning} alt="Rocket Launch" width={34} />
@@ -52,10 +50,9 @@ const WhyBusiness = () => {
           {/* Text Container */}
           <div className="text-left">
             <h4 className="text-lg font-medium font-manrope text-[#F5F5F5] pt-9 pb-3">5-day Guaranteed Delivery</h4>
-            <p className="text-sm md:text-xs lg:text-sm text-[#B2B2B2] md:w-[152px] lg:w-full max-w-[328px]">With a highly professional team, we deliver on time, everytime.</p>
+            <p className="text-sm md:text-xs lg:text-sm text-[#B2B2B2] w-[310px] md:w-[152px] lg:w-full max-w-[328px]">With a highly professional team, we deliver on time, everytime.</p>
           </div>
         </div>
-
 
         {/* Card-4 */}
         <div className="p-6 bg-[#192420] rounded-lg">
@@ -67,6 +64,7 @@ const WhyBusiness = () => {
             <p className="text-sm md:text-xs lg:text-sm text-[#B2B2B2] md:w-[152px] lg:w-full max-w-[328px]">No hidden fees, just clear value. What you see is what you pay.</p>
           </div>
         </div>
+
         {/* Card-5 */}
         <div className="p-6 bg-[#192420] rounded-lg">
           <Image src={ArrowsClockwise} alt="Rocket Launch" width={37} />
@@ -74,10 +72,9 @@ const WhyBusiness = () => {
           {/* Text Container */}
           <div className="text-left">
             <h4 className="text-lg font-medium font-manrope text-[#F5F5F5] pt-9 pb-3">Revisions Until You're Happy</h4>
-            <p className="text-sm md:text-xs lg:text-sm text-[#B2B2B2] md:w-[152px] lg:w-full max-w-[328px]">We keep working until it's right. Your satisfaction is guaranteed.</p>
+            <p className="text-sm md:text-xs lg:text-sm text-[#B2B2B2] w-[310px] md:w-[152px] lg:w-full max-w-[328px]">We keep working until it's right. Your satisfaction is guaranteed.</p>
           </div>
         </div>
-
 
         {/* Card-6 */}
         <div className="p-6 bg-[#192420] rounded-lg">
