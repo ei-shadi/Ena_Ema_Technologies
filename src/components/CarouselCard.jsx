@@ -36,7 +36,7 @@ const CarouselCard = () => {
       </div>
 
       {/* Small Device */}
-      <div className="relative flex items-center gap-3 md:hidden">
+      <div className="relative flex items-center gap-3 md:hidden overflow-hidden">
         <Image
           src={SmallPhoto1}
           alt="Photo1"
